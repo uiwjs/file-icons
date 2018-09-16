@@ -8,8 +8,9 @@
   },
   "homepage": "https://uiw-react.github.io/file-icons",
   "scripts": {
+    "start": "npm run font && npm run deploy",
     "font": "node ./script/index.js",
-    "deploy": "npm run font && node ./script/deploy.js"
+    "deploy": "node ./script/deploy.js"
   },
   "keywords": [
     "file-icons",
