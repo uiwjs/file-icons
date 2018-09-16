@@ -16,14 +16,18 @@ const load = loading({
   stream: process.stdout,
 }).start();
 
-ghpages.publish(path.resolve(path.join(process.cwd(), 'fonts')), {
-  branch: BRANCH,
-  repo: ORIGIN,
-  message: `Update uiw-iconfont v${pkg.version} document., ${new Date()}!`,
-}, (err) => {
-  load.stop();
-  if (err) {
-    return console.log(err);
+ghpages.publish(
+  path.resolve(path.join(process.cwd(), "fonts")),
+  {
+    branch: BRANCH,
+    repo: ORIGIN,
+    message: `Update file-icons v${pkg.version} document., ${new Date()}!`
+  },
+  err => {
+    load.stop();
+    if (err) {
+      return console.log(err);
+    }
+    console.log(`\n  Push to ${BRANCH} success!\n`.green.bold);
   }
-  console.log(`\n  Push to ${BRANCH} success!\n`.green.bold);
-});
+);
