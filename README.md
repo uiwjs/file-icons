@@ -5,7 +5,7 @@ File Icon Font
 
 File icons in the file tree.
 
-Visit **[https://uiw-react.github.io/file-icons/](https://uiw-react.github.io/file-icons/)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "swift" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy/pasting when you're developing!
+Visit **[https://uiw-react.github.io/file-icons/](https://uiw-react.github.io/file-icons/index.html)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "swift" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy/pasting when you're developing!
 
 They are free to use and licensed under [MIT](https://opensource.org/licenses/MIT). Use them wherever you see fit, personal or commercial. 
 
@@ -18,6 +18,6 @@ npm install @uiw/file-icons --save
 
 ## Usage
 
-You can use [https://uiw-react.github.io/file-icons/](https://uiw-react.github.io/file-icons/) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `apple` to an HTML element.
+You can use [https://uiw-react.github.io/file-icons/](https://uiw-react.github.io/file-icons/index.html) to easily find the icon you want to use. Once you've copied the desired icon's CSS classname, simply add the icon and icon's classname, such as `apple` to an HTML element.
 
 You need link CSS
