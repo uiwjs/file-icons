@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="aurelia-a" x1="-388.14%" x2="237.678%" y1="-144.168%" y2="430.394%">
+      <stop offset="0%" stop-color="#C06FBB"/>
+      <stop offset="100%" stop-color="#6E4D9B"/>
+    </linearGradient>
+    <linearGradient id="aurelia-b" x1="72.948%" x2="-97.051%" y1="84.424%" y2="-147.694%">
+      <stop offset="0%" stop-color="#6E4D9B"/>
+      <stop offset="14%" stop-color="#77327A"/>
+      <stop offset="29%" stop-color="#B31777"/>
+      <stop offset="84%" stop-color="#CD0F7E"/>
+      <stop offset="100%" stop-color="#ED2C89"/>
+    </linearGradient>
+    <linearGradient id="aurelia-c" x1="-283.88%" x2="287.525%" y1="-693.605%" y2="101.712%">
+      <stop offset="0%" stop-color="#C06FBB"/>
+      <stop offset="100%" stop-color="#6E4D9B"/>
+    </linearGradient>
+    <linearGradient id="aurelia-d" x1="-821.191%" x2="101.986%" y1="-469.036%" y2="288.223%">
+      <stop offset="0%" stop-color="#C06FBB"/>
+      <stop offset="100%" stop-color="#6E4D9B"/>
+    </linearGradient>
+    <linearGradient id="aurelia-e" x1="-140.352%" x2="418.99%" y1="-230.93%" y2="261.976%">
+      <stop offset="0%" stop-color="#C06FBB"/>
+      <stop offset="100%" stop-color="#6E4D9B"/>
+    </linearGradient>
+    <linearGradient id="aurelia-f" x1="191.082%" x2="20.358%" y1="253.95%" y2="20.403%">
+      <stop offset="0%" stop-color="#6E4D9B"/>
+      <stop offset="14%" stop-color="#77327A"/>
+      <stop offset="29%" stop-color="#B31777"/>
+      <stop offset="84%" stop-color="#CD0F7E"/>
+      <stop offset="100%" stop-color="#ED2C89"/>
+    </linearGradient>
+    <linearGradient id="aurelia-g" x1="-388.098%" x2="237.673%" y1="-173.853%" y2="518.992%">
+      <stop offset="0%" stop-color="#C06FBB"/>
+      <stop offset="100%" stop-color="#6E4D9B"/>
+    </linearGradient>
+    <linearGradient id="aurelia-h" x1="11.188%" x2="90.142%" y1="89.652%" y2="11.577%">
+      <stop offset="0%" stop-color="#6E4D9B"/>
+      <stop offset="14%" stop-color="#77327A"/>
+      <stop offset="53%" stop-color="#B31777"/>
+      <stop offset="79%" stop-color="#CD0F7E"/>
+      <stop offset="100%" stop-color="#ED2C89"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" transform="rotate(11.284 12.877 28.061)">
+    <polygon fill="url(#aurelia-a)" points="8.461 6.479 4.354 9.219 .123 2.88 4.23 .139" transform="rotate(-11.284 19.604 -84.724)"/>
+    <polygon fill="url(#aurelia-b)" points="9.704 1.995 16.72 12.51 8.362 18.087 1.346 7.573 .121 5.739 8.48 .161" transform="rotate(-11.284 137.648 -107.094)"/>
+    <polygon fill="url(#aurelia-c)" points="7.717 1.985 9.261 4.3 2.899 8.546 .131 4.397 1.52 3.469 6.493 .151" transform="rotate(-11.284 177.52 -67.387)"/>
+    <path fill="url(#aurelia-d)" d="M2.46028528,1.21038321 L4.24473799,0.0196556243 L7.01344657,4.16875398 L2.90642489,6.9095524 L1.36164007,4.59470101 L3.68420904,3.04473589 L2.46028528,1.21038321 Z M1.36164007,4.59459529 L0.137716314,2.76034832 L2.46028528,1.21038321 L3.68420904,3.04463017 L1.36164007,4.59459529 Z" transform="rotate(-11.284 111.098 -159.257)"/>
+    <polygon fill="url(#aurelia-e)" points="5.65 9.68 4.26 10.607 .03 4.267 6.392 .022 9.357 4.466 4.385 7.784 9.357 4.466 10.622 6.362" transform="rotate(-11.284 87.24 6.58)"/>
+    <polygon fill="url(#aurelia-f)" points="15.362 10.502 16.627 12.398 8.268 17.976 7.003 16.08 .053 5.664 8.411 .086" transform="rotate(-11.284 18.872 -9.78)"/>
+    <polygon fill="url(#aurelia-g)" points="6.592 7.586 4.27 9.136 3.005 7.24 .039 2.796 4.146 .055 8.377 6.395" transform="rotate(-11.284 19.986 -85.193)"/>
+    <polygon fill="#714896" points="1.238 5.303 .014 3.469 4.986 .151 6.21 1.985" transform="rotate(-11.284 176.772 -75.014)"/>
+    <polygon fill="#6F4795" points="1.362 3.424 .138 1.59 2.461 .04 3.685 1.874" transform="rotate(-11.284 117.029 -159.835)"/>
+    <polygon fill="#88519F" points="1.296 5.322 .031 3.426 5.003 .108 6.269 2.004" transform="rotate(-11.284 107.123 -17.633)"/>
+    <polygon fill="#85509E" points="1.421 3.611 .156 1.715 2.478 .165 3.744 2.061" transform="rotate(-11.284 46.525 -102.374)"/>
+    <polygon fill="#8D166A" points="9.703 1.997 1.344 7.575 .12 5.741 8.479 .163" transform="rotate(-11.284 137.64 -107.098)"/>
+    <polygon fill="#A70D6F" points="8.497 .12 9.762 2.016 1.403 7.594 .138 5.698" transform="rotate(-11.284 67.985 -49.718)"/>
+    <rect width="2.842" height="2.842" x=".19" y=".065" fill="#9E61AD" transform="rotate(45 -13.58 9.484)"/>
+    <rect width="2.842" height="2.842" x=".19" y=".065" fill="#8053A3" transform="rotate(45 -38.167 39.327)"/>
+    <polygon fill="url(#aurelia-h)" points="8.851 40.485 .018 31.585 31.45 .085 40.581 8.756" transform="translate(2.234 1.754)"/>
+  </g>
+</svg>

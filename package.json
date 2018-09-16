@@ -1,0 +1,44 @@
+{
+  "name": "@uiw/file-icons",
+  "version": "1.0.0",
+  "description": "File icons in the file tree",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiw-react/file-icons"
+  },
+  "homepage": "https://uiw-react.github.io/file-icons",
+  "scripts": {
+    "font": "node ./script/index.js",
+    "deploy": "gh-pages -d fonts"
+  },
+  "keywords": [
+    "file-icons",
+    "svg",
+    "icon",
+    "font",
+    "webfont",
+    "icon",
+    "iconfont",
+    "font-face",
+    "compress",
+    "minify",
+    "font-cli",
+    "otf",
+    "ttf",
+    "woff",
+    "eot",
+    "svg",
+    "ttf2eot",
+    "ttf2woff",
+    "ttf2svg",
+    "svg2ttf",
+    "css",
+    "base64"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "svgtofont": "^1.1.6"
+  },
+  "devDependencies": {}
+}
