@@ -14,6 +14,7 @@ svgtofont({
     normalize: true
   },
   website: {
+    index: "symbol", // Enum{"font-class", "unicode", "symbol"}
     title: "file-icons",
     // Must be a .svg format image.
     logo: path.resolve(process.cwd(), "assets", "logo.svg"),
@@ -33,15 +34,21 @@ svgtofont({
         url: "https://github.com/uiw-react/file-icons/issues"
       },
       {
-        title: "Font Class",
+        title: "Font Class Demo",
+        url: "font-class.html"
+      },
+      {
+        title: "Symbol Demo",
         url: "index.html"
       },
       {
-        title: "Unicode",
+        title: "Unicode Demo",
         url: "unicode.html"
       }
     ],
-    footerInfo: `Licensed under MIT. (Yes it's free and <a href="https://github.com/uiw-react/file-icons">open-sourced</a>`
+    footerInfo: `
+      Licensed under MIT. (Yes it's free and <a href="https://github.com/uiw-react/file-icons">open-sourced</a>)
+    `
   }
 }).then(() => {
   console.log("done!");

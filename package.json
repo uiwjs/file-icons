@@ -36,12 +36,12 @@
     "css",
     "base64"
   ],
-  "author": "",
+  "author": "Kenny <wowohoo@qq.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "loading-cli": "^1.0.8",
-    "svgtofont": "^1.1.6"
+    "svgtofont": "^1.1.10"
   }
 }
