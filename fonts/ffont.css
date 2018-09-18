@@ -1,11 +1,11 @@
 @font-face {
   font-family: "ffont";
-  src: url('ffont.eot?t=1537291834695'); /* IE9*/
-  src: url('ffont.eot?t=1537291834695#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("ffont.woff2?t=1537291834695") format("woff2"),
-  url("ffont.woff?t=1537291834695") format("woff"),
-  url('ffont.ttf?t=1537291834695') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('ffont.svg?t=1537291834695#ffont') format('svg'); /* iOS 4.1- */
+  src: url('ffont.eot?t=1537292297282'); /* IE9*/
+  src: url('ffont.eot?t=1537292297282#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("ffont.woff2?t=1537292297282") format("woff2"),
+  url("ffont.woff?t=1537292297282") format("woff"),
+  url('ffont.ttf?t=1537292297282') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('ffont.svg?t=1537292297282#ffont') format('svg'); /* iOS 4.1- */
 }
 
 [class^="ffont-"], [class*=" ffont-"] {
