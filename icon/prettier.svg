@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-  <g fill="none" transform="translate(5 2)">
-    <rect width="4" height="2" x="32" y="8" fill="#56B3B4" rx="1"/>
-    <rect width="13" height="2" y="42" fill="#EA5E5E" rx="1"/>
-    <rect width="8" height="2" x="25" y="25" fill="#BF85BF" rx="1"/>
-    <rect width="11" height="2" x="13" y="25" fill="#EA5E5E" rx="1"/>
-    <rect width="11" height="2" y="25" fill="#56B3B4" rx="1"/>
-    <rect width="13" height="2" y="34" fill="#BF85BF" rx="1"/>
-    <rect width="13" height="2" y="17" fill="#BF85BF" rx="1"/>
-    <rect width="23" height="2" x="11" y="4" fill="#F7BA3E" rx="1"/>
-    <rect width="8" height="2" y="4" fill="#EA5E5E" rx="1"/>
-    <rect width="4" height="2" x="8" y="38" fill="#F7BA3E" rx="1"/>
-    <rect width="4" height="2" x="8" y="13" fill="#56B3B4" rx="1"/>
-    <rect width="6" height="2" y="38" fill="#56B3B4" rx="1"/>
+  <g fill="none" transform="translate(5 1)">
+    <rect width="4" height="2" x="33" y="9" fill="#56B3B4" rx="1"/>
+    <rect width="13" height="2" y="44" fill="#EA5E5E" rx="1"/>
+    <rect width="9" height="2" x="26" y="26" fill="#BF85BF" rx="1"/>
+    <rect width="11" height="2" x="13" y="26" fill="#EA5E5E" rx="1"/>
+    <rect width="11" height="2" y="26" fill="#56B3B4" rx="1"/>
+    <rect width="13" height="2" y="35" fill="#BF85BF" rx="1"/>
+    <rect width="13" height="2" y="18" fill="#BF85BF" rx="1"/>
+    <rect width="24" height="2" x="11" y="4" fill="#F7BA3E" rx="1"/>
+    <rect width="9" height="2" y="4" fill="#EA5E5E" rx="1"/>
+    <rect width="4" height="2" x="9" y="39" fill="#F7BA3E" rx="1"/>
+    <rect width="4" height="2" x="9" y="13" fill="#56B3B4" rx="1"/>
+    <rect width="6" height="2" y="39" fill="#56B3B4" rx="1"/>
     <rect width="6" height="2" y="13" fill="#F7BA3E" rx="1"/>
-    <rect width="19" height="2" x="17" y="21" fill="#56B3B4" rx="1"/>
-    <rect width="8" height="2" x="6" y="21" fill="#F7BA3E" rx="1"/>
-    <rect width="4" height="2" y="21" fill="#EA5E5E" rx="1"/>
-    <rect width="11" height="2" x="19" y="8" fill="#BF85BF" rx="1"/>
-    <rect width="17" height="2" y="8" fill="#56B3B4" rx="1"/>
-    <rect width="21" height="2" x="6" y="29" fill="#F7BA3E" rx="1"/>
-    <rect width="4" height="2" y="29" fill="#BF85BF" rx="1"/>
-    <rect width="13" height="2" x="25" y="13" fill="#EA5E5E" rx="1"/>
-    <rect width="13" height="2" x="25" y="17" fill="#F7BA3E" rx="1"/>
-    <rect width="27" height="2" fill="#56B3B4" rx="1"/>
+    <rect width="20" height="2" x="17" y="22" fill="#56B3B4" rx="1"/>
+    <rect width="9" height="2" x="6" y="22" fill="#F7BA3E" rx="1"/>
+    <rect width="4" height="2" y="22" fill="#EA5E5E" rx="1"/>
+    <rect width="11" height="2" x="20" y="9" fill="#BF85BF" rx="1"/>
+    <rect width="17" height="2" y="9" fill="#56B3B4" rx="1"/>
+    <rect width="22" height="2" x="6" y="31" fill="#F7BA3E" rx="1"/>
+    <rect width="4" height="2" y="31" fill="#BF85BF" rx="1"/>
+    <rect width="13" height="2" x="26" y="13" fill="#EA5E5E" rx="1"/>
+    <rect width="13" height="2" x="26" y="18" fill="#F7BA3E" rx="1"/>
+    <rect width="28" height="2" fill="#56B3B4" rx="1"/>
   </g>
 </svg>

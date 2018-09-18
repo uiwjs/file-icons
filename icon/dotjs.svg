@@ -1,8 +1,8 @@
-<svg version="1.1" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
-<g transform="translate(-6.6599 100.49)" fill="#2196f3" fill-opacity=".60392">
-<ellipse transform="matrix(-.3005 .95378 -.96071 -.27755 0 0)" cx="37.18" cy="-256.97" rx="110.14" ry="139.47"/>
-<ellipse transform="matrix(-.3005 .95378 -.96071 -.27755 0 0)" cx="38.835" cy="-197.03" rx="110.14" ry="139.47"/>
-<ellipse transform="matrix(-.95378 -.3005 .27755 -.96071 0 0)" cx="-224.78" cy="-5.0657" rx="110.14" ry="139.47"/>
-<ellipse transform="matrix(-.95378 -.3005 .27755 -.96071 0 0)" cx="-228.55" cy="-60.291" rx="110.14" ry="139.47"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="#2196F3" fill-opacity=".604" transform="translate(-3 -2)">
+    <ellipse cx="31.5" cy="26" rx="14.5" ry="18" transform="rotate(107.369 31.5 26)"/>
+    <ellipse cx="22.5" cy="24" rx="14.5" ry="18" transform="rotate(107.369 22.5 24)"/>
+    <ellipse cx="26.5" cy="22" rx="14.5" ry="18" transform="rotate(-163.775 26.5 22)"/>
+    <ellipse cx="25.5" cy="29" rx="14.5" ry="18" transform="rotate(-163.775 25.5 29)"/>
+  </g>
 </svg>

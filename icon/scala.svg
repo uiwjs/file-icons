@@ -1,1 +1,11 @@
-<svg enable-background="new 0 0 256 256" version="1.1" viewBox="0 0 256 256" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-6.1456 .2445)" fill="#f44336" fill-rule="evenodd"><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.251" y="59.435" width="150.71" height="49.488"/><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.237" y="122.87" width="150.71" height="49.488"/><rect transform="matrix(.98931 -.14586 0 1 0 0)" x="60.231" y="186.14" width="150.71" height="49.488"/><rect transform="rotate(17.923)" x="87.528" y="67.767" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="126.41" y="23.362" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="107.03" y="128.07" width="100.48" height="9.2044"/><rect transform="rotate(17.923)" x="145.89" y="83.566" width="100.48" height="9.2044"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g fill="#F44336" fill-rule="evenodd" transform="translate(3 2)">
+    <polygon points="0 6.166 42 0 42 7.834 0 14"/>
+    <polygon points="0 21.166 42 15 42 22.834 0 29"/>
+    <polygon points="0 36.166 42 30 42 37.834 0 44"/>
+    <polygon points="0 16 28 16.176 28 19 0 18.824" transform="rotate(17.923 14 17.5)"/>
+    <rect width="28" height="3" x="14" y="11" transform="rotate(17.923 28 12.5)"/>
+    <polygon points="0 31 28 31.176 28 34 0 33.824" transform="rotate(17.923 14 32.5)"/>
+    <rect width="28" height="3" x="14" y="25" transform="rotate(17.923 28 26.5)"/>
+  </g>
+</svg>
