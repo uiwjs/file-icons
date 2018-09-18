@@ -3,7 +3,7 @@ File Icon Font
 
 [![](https://img.shields.io/github/issues/uiw-react/file-icons.svg)](https://github.com/uiw-react/file-icons/issues) [![](https://img.shields.io/github/forks/uiw-react/file-icons.svg)](https://github.com/uiw-react/file-icons/network) [![](https://img.shields.io/github/stars/uiw-react/file-icons.svg)](https://github.com/uiw-react/file-icons/stargazers) [![](https://img.shields.io/github/release/uiw-react/file-icons.svg)](https://github.com/uiw-react/file-icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiw-react/file-icons) [![Packagist](https://img.shields.io/npm/v/@uiw/file-icons.svg)](https://www.npmjs.com/package/@uiw/file-icons)
 
-File icons in the file tree.
+File icons in the file tree using [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme).
 
 Visit **[https://uiw-react.github.io/file-icons/](https://uiw-react.github.io/file-icons/index.html)** and check out the search feature, which has keywords identifying common icon names and styles. For example, if you search for "swift" we call up every icon that could possibly be used as an arrow. We've also included each icon's class name for easy copy/pasting when you're developing!
 
