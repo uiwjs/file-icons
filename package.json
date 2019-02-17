@@ -1,12 +1,12 @@
 {
   "name": "@uiw/file-icons",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "File icons in the file tree",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uiw-react/file-icons"
+    "url": "https://github.com/uiwjs/file-icons"
   },
-  "homepage": "https://uiw-react.github.io/file-icons",
+  "homepage": "https://uiwjs.github.io/file-icons",
   "scripts": {
     "start": "npm run font && npm run deploy",
     "font": "node ./script/build.js",
