@@ -78,4 +78,4 @@ Support for `.less` and `.css` styles references.
 
 ## License
 
-Licensed under the [MIT License](https://opensource.org/licenses/MIT).
+Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).
