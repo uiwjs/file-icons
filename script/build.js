@@ -6,6 +6,8 @@ svgtofont({
   src: path.resolve(process.cwd(), "icon"), // svg path
   dist: path.resolve(process.cwd(), "fonts"), // output path
   emptyDist: true,
+  outSVGReact: true,
+  outSVGPath: true,
   fontName: "ffont", // font name
   css: true, // Create CSS files.
   startNumber: 20000, // unicode start number

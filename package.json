@@ -1,6 +1,6 @@
 {
   "name": "@uiw/file-icons",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "File icons in the file tree",
   "repository": {
     "type": "git",
@@ -35,6 +35,9 @@
     "svg2ttf",
     "css",
     "base64"
+  ],
+  "files": [
+    "fonts"
   ],
   "author": "Kenny <wowohoo@qq.com>",
   "license": "MIT",

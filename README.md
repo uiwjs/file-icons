@@ -31,6 +31,8 @@ Suppose the font name is defined as `ffont`, The default home page is `unicode`,
 font-class.html
 index.html
 symbol.html
+react
+ffont.json
 ffont.css
 ffont.eot
 ffont.less
