@@ -28,11 +28,11 @@ svgtofont({
     links: [
       {
         title: "GitHub",
-        url: "https://github.com/uiw-react/file-icons"
+        url: "https://github.com/uiwjs/file-icons"
       },
       {
         title: "Feedback",
-        url: "https://github.com/uiw-react/file-icons/issues"
+        url: "https://github.com/uiwjs/file-icons/issues"
       },
       {
         title: "Font Class Demo",
@@ -48,7 +48,7 @@ svgtofont({
       }
     ],
     footerInfo: `
-      Licensed under MIT. (Yes it's free and <a href="https://github.com/uiw-react/file-icons">open-sourced</a>)
+      Licensed under MIT. (Yes it's free and <a href="https://github.com/uiwjs/file-icons">open-sourced</a>)
     `
   }
 }).then(() => {
