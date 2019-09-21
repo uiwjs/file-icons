@@ -49,7 +49,7 @@ Preview demo `font-class.html`, `symbol.html` annd `index.html`. Automatically g
 
 ```xml
 <svg class="icon" aria-hidden="true">
-  <use xlink:href="node_modules/ffont/fonts/ffont.symbol.svg#ffont-javascript"></use>
+  <use xlink:href="node_modules/@uiw/file-icons/fonts/ffont.symbol.svg#ffont-javascript"></use>
 </svg>
 ```
 
@@ -58,7 +58,7 @@ Preview demo `font-class.html`, `symbol.html` annd `index.html`. Automatically g
 ```html
 <style>
 .iconfont {
-  font-family: "ffont-iconfont" !important;
+  font-family: "ffont" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -74,7 +74,7 @@ Preview demo `font-class.html`, `symbol.html` annd `index.html`. Automatically g
 Support for `.less` and `.css` styles references.
 
 ```html
-<link rel="stylesheet" type="text/css" href="node_modules/ffont/fonts/ffont.css">
+<link rel="stylesheet" type="text/css" href="node_modules/@uiw/file-icons/fonts/ffont.css">
 <i class="ffont-javascript"></i>
 ```
 
