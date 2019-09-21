@@ -42,6 +42,6 @@
   "devDependencies": {
     "gh-pages": "^1.2.0",
     "loading-cli": "^1.0.8",
-    "svgtofont": "^1.1.12"
+    "svgtofont": "^1.3.0"
   }
 }
