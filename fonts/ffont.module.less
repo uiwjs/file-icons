@@ -1,5 +1,4 @@
-@font-face {
-  font-family: "ffont";
+@font-face {font-family: "ffont";
   src: url('ffont.eot?t=1600919837871'); /* IE9*/
   src: url('ffont.eot?t=1600919837871#iefix') format('embedded-opentype'), /* IE6-IE8 */
   url("ffont.woff2?t=1600919837871") format("woff2"),
@@ -16,7 +15,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+:global {
 .ffont-actionscript:before { content: "\ea01"; }
 .ffont-android:before { content: "\ea02"; }
 .ffont-angular:before { content: "\ea03"; }
@@ -255,3 +254,5 @@
 .ffont-yang:before { content: "\eaec"; }
 .ffont-yarn:before { content: "\eaed"; }
 .ffont-zip:before { content: "\eaee"; }
+
+}
