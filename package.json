@@ -43,7 +43,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "gh-pages": "1.2.0",
+    "gh-pages": "3.1.0",
     "loading-cli": "1.0.8",
     "svgtofont": "3.2.0"
   }
