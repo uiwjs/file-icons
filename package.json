@@ -8,9 +8,51 @@
   },
   "homepage": "https://uiwjs.github.io/file-icons",
   "scripts": {
-    "start": "npm run font && npm run deploy",
-    "font": "node ./script/build.js",
-    "deploy": "node ./script/deploy.js"
+    "start": "npm run font",
+    "font": "svgtofont --sources ./icon --output ./fonts"
+  },
+  "svgtofont": {
+    "emptyDist": true,
+    "outSVGReact": true,
+    "outSVGPath": true,
+    "fontName": "ffont",
+    "svgicons2svgfont": {
+      "fontHeight": 1000,
+      "normalize": true
+    },
+    "website": {
+      "index": "symbol",
+      "title": "file-icons",
+      "logo": "assets/logo.svg",
+      "version": "1.1.2",
+      "meta": {
+        "description": "File icons in the file tree.",
+        "keywords": "file,icon,file-icons,TTF,EOT,WOFF,WOFF2,SVG"
+      },
+      "links": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/uiwjs/file-icons"
+        },
+        {
+          "title": "Feedback",
+          "url": "https://github.com/uiwjs/file-icons/issues"
+        },
+        {
+          "title": "Font Class Demo",
+          "url": "font-class.html"
+        },
+        {
+          "title": "Symbol Demo",
+          "url": "index.html"
+        },
+        {
+          "title": "Unicode Demo",
+          "url": "unicode.html"
+        }
+      ],
+      "footerInfo": "Licensed under MIT. (Yes it's free and <a href=\"https://github.com/uiwjs/file-icons\">open-sourced</a>)"
+    }
   },
   "keywords": [
     "file-icons",
