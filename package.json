@@ -84,7 +84,7 @@
   "author": "Kenny <wowohoo@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "loading-cli": "1.0.8",
+    "loading-cli": "1.1.0",
     "svgtofont": "3.11.4"
   }
 }
