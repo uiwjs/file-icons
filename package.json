@@ -85,6 +85,6 @@
   "license": "MIT",
   "devDependencies": {
     "loading-cli": "1.0.8",
-    "svgtofont": "3.11.4"
+    "svgtofont": "3.12.0"
   }
 }
