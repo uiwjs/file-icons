@@ -78,6 +78,58 @@ Support for `.less` and `.css` styles references.
 <i class="ffont-javascript"></i>
 ```
 
+## React
+
+Icons are used as components. `v1.3.0+` support.
+
+```jsx
+import { Android } from '@uiw/file-icons';
+// Or
+import { Android } from '@uiw/file-icons/Alipay';
+
+<Android style={{ fill: 'red' }} />
+<Android height="36" />
+```
+
+**Custom Icon Component**
+
+Create an `Icon` component.
+
+```jsx
+import React from 'react';
+import svgPaths from '@uiw/file-icons/fonts/ffont.json';
+
+const renderSvgPaths = (type) => {
+  const pathStrings = svgPaths[type];
+  if (pathStrings == null) {
+    return null
+  }
+  return pathStrings.map((d, i) => <path key={i} d={d} fillRule="evenodd" />)
+}
+
+export default class Icon extends React.PureComponent {
+  render() {
+    const { type, color } = this.props;
+    if (type == null || typeof type === "boolean") {
+      return null;
+    }
+    return (
+      <svg fill={color} viewBox={`0 0 24 24`}>{this.renderSvgPaths(type)}</svg>
+    );
+  }
+}
+```
+
+Use the `Icon` component:
+
+```jsx
+const demo = () => {
+  return (
+    <Icon type="android" />
+  )
+}
+```
+
 ## License
 
 Created By [svgtofont](https://github.com/jaywcjlove/svgtofont), Licensed under the [MIT License](https://opensource.org/licenses/MIT).

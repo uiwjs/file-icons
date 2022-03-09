@@ -1,6 +1,4 @@
-
 import React from 'react';
-
 export const Karma = props => (
-  <svg viewBox="0 0 20 20" {...props}></svg>
+  <svg viewBox="0 0 20 20" width="16px" height="16px" {...props} className={`ffont ${props.className ? props.className : ''}`}></svg>
 );

@@ -8,51 +8,10 @@
   },
   "homepage": "https://uiwjs.github.io/file-icons",
   "scripts": {
-    "start": "npm run font",
-    "font": "svgtofont --sources ./icon --output ./fonts"
-  },
-  "svgtofont": {
-    "emptyDist": true,
-    "outSVGReact": true,
-    "outSVGPath": true,
-    "fontName": "ffont",
-    "svgicons2svgfont": {
-      "fontHeight": 1000,
-      "normalize": true
-    },
-    "website": {
-      "index": "symbol",
-      "title": "file-icons",
-      "logo": "assets/logo.svg",
-      "version": "1.1.2",
-      "meta": {
-        "description": "File icons in the file tree.",
-        "keywords": "file,icon,file-icons,TTF,EOT,WOFF,WOFF2,SVG"
-      },
-      "links": [
-        {
-          "title": "GitHub",
-          "url": "https://github.com/uiwjs/file-icons"
-        },
-        {
-          "title": "Feedback",
-          "url": "https://github.com/uiwjs/file-icons/issues"
-        },
-        {
-          "title": "Font Class Demo",
-          "url": "font-class.html"
-        },
-        {
-          "title": "Symbol Demo",
-          "url": "index.html"
-        },
-        {
-          "title": "Unicode Demo",
-          "url": "unicode.html"
-        }
-      ],
-      "footerInfo": "Licensed under MIT. (Yes it's free and <a href=\"https://github.com/uiwjs/file-icons\">open-sourced</a>)"
-    }
+    "font": "svgtofont --sources icon --output fonts",
+    "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
+    "build": "tsbb build --entry fonts/react/index.js --no-source-maps",
+    "start": "npm run font && npm run build && npm run copy"
   },
   "keywords": [
     "file-icons",
@@ -78,13 +37,11 @@
     "css",
     "base64"
   ],
-  "files": [
-    "fonts"
-  ],
   "author": "Kenny <wowohoo@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "loading-cli": "1.1.0",
-    "svgtofont": "3.12.2"
+    "copyfiles": "~2.4.1",
+    "svgtofont": "~3.17.5",
+    "tsbb": "~3.7.2"
   }
 }
