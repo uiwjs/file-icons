@@ -1,7 +1,11 @@
 File Icon Font
----
+===
 
-[![](https://img.shields.io/github/issues/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/issues) [![](https://img.shields.io/github/forks/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/network) [![](https://img.shields.io/github/stars/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/stargazers) [![](https://img.shields.io/github/release/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/releases) [![Packagist](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/file-icons) [![Packagist](https://img.shields.io/npm/v/@uiw/file-icons.svg)](https://www.npmjs.com/package/@uiw/file-icons)
+[![NPM Downloads](https://img.shields.io/npm/dm/@uiw/file-icons.svg?style=flat)](https://www.npmjs.com/package/@uiw/file-icons)
+[![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@uiw/file-icons/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@uiw/file-icons)
+[![releases version](https://img.shields.io/github/release/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/releases)
+[![LICENSE](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/uiwjs/file-icons)
+[![NPM Version](https://img.shields.io/npm/v/@uiw/file-icons.svg)](https://www.npmjs.com/package/@uiw/file-icons)
 
 File icons in the file tree using [vscode-material-icon-theme](https://github.com/PKief/vscode-material-icon-theme).
 
@@ -129,6 +133,16 @@ const demo = () => {
   )
 }
 ```
+
+## Contributors
+
+As always, thanks to our amazing contributors!
+
+<a href="https://github.com/uiwjs/file-icons/graphs/contributors">
+  <img src="https://uiwjs.github.io/file-icons/CONTRIBUTORS.svg" />
+</a>
+
+Made with [github-action-contributors](https://github.com/jaywcjlove/github-action-contributors).
 
 ## License
 
