@@ -9,10 +9,20 @@
   "homepage": "https://uiwjs.github.io/file-icons",
   "scripts": {
     "font": "svgtofont --sources icon --output fonts",
-    "copy": "copyfiles -f fonts/react/*.d.ts lib --verbose && copyfiles -f fonts/react/*.d.ts esm --verbose",
-    "build": "tsbb build --entry fonts/react/index.js --no-source-maps",
-    "start": "npm run font && npm run build && npm run copy"
+    "copy": "cpy fonts/react/*.js fonts/react/*.d.ts react --flat",
+    "build": "tsbb build react/*.{js,d.ts} --useBabel",
+    "start": "npm run font && npm run copy && npm run build"
   },
+  "files": [
+    "lib",
+    "esm",
+    "*.js",
+    "*.d.ts",
+    "icon",
+    "!icon/react",
+    "!icon/*.html",
+    "fonts"
+  ],
   "keywords": [
     "file-icons",
     "svg",
@@ -40,8 +50,8 @@
   "author": "Kenny <wowohoo@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "copyfiles": "~2.4.1",
-    "svgtofont": "~3.17.5",
-    "tsbb": "~3.7.2"
+    "cpy-cli": "^4.2.0",
+    "svgtofont": "~3.23.0",
+    "tsbb": "^4.0.2"
   }
 }
