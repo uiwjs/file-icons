@@ -138,7 +138,7 @@ Configure webpack loader:
 You can then import the SVG as a React component like this:
 
 ```javascript
-import { ReactComponent as ComLogo } from '@uiw/icons/icon/android.svg';
+import { ReactComponent as ComLogo } from '@uiw/file-icons/icon/android.svg';
 
 <ComLogo />
 ```
