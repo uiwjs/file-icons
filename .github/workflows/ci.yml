@@ -18,7 +18,8 @@ jobs:
       - run: npm run copy
       - run: npm run build
       - run: rm -rf fonts/react
-      - run: cp lib/*js ./
+      - run: cp lib/*.js ./
+      - run: cp lib/*.d.ts ./
       - run: rm -rf index.js
       - run: ls -al
 
