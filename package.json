@@ -51,7 +51,7 @@
   "license": "MIT",
   "devDependencies": {
     "cpy-cli": "^4.2.0",
-    "svgtofont": "~3.23.0",
+    "svgtofont": "~3.25.0",
     "tsbb": "^4.0.2"
   }
 }
