@@ -1,6 +1,8 @@
 File Icon Font
 ===
 
+[![Buy me a coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://jaywcjlove.github.io/#/sponsor)
+[![Follow On X](https://img.shields.io/badge/Follow%20on%20X-333333?logo=x&logoColor=white)](https://x.com/jaywcjlove)
 [![NPM Downloads](https://img.shields.io/npm/dm/@uiw/file-icons.svg?style=flat)](https://www.npmjs.com/package/@uiw/file-icons)
 [![jsDelivr CDN](https://data.jsdelivr.com/v1/package/npm/@uiw/file-icons/badge?style=rounded)](https://www.jsdelivr.com/package/npm/@uiw/file-icons)
 [![releases version](https://img.shields.io/github/release/uiwjs/file-icons.svg)](https://github.com/uiwjs/file-icons/releases)
